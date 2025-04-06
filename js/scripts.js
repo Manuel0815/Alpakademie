@@ -35,12 +35,19 @@ $(document).ready(function () {
     $("#submitButton").click(function () {
         questions = [];
         cquestions = $("#cquestions").val();
+
         n_right = 0;
         n_wrong = 0;
         console.log("start quiz with " + cquestions + " questions");
         
-        $.getJSON("https://raw.githubusercontent.com/Manuel0815/Alpakademie/main/data/jrk-questions.json", function (data) {
+        $.getJSON("https://raw.githubusercontent.com/Manuel0815/Alpakademie/main/data/questions.json", function (data) {
             if (data && Array.isArray(data)) {
+                if (cquestions == "Alle" || parseInt(cquestions) > data.length)
+                    cquestions = data.length;
+                else
+                    cquestions = parseInt(cquestions);
+                
+                console.log("cquestions: " + cquestions);
                 var randomQuestions = [];
                 while (randomQuestions.length < cquestions && data.length > 0) {
                     var randomIndex = Math.floor(Math.random() * data.length);
