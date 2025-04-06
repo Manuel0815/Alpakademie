@@ -70,13 +70,15 @@ $(document).ready(function () {
                 var answer = question.options[i];
                 var isChecked = $("#answer" + i).is(":checked");
                 console.log("Answer" + answer + " isChecked: " + isChecked + ". Option is correct: " + question.correctAnswers.includes(answer));
+                if (question.correctAnswers.includes(answer)) {
+                    $("#answerLabel" + i).addClass("text-success");
+                }
+
                 if (isChecked && question.correctAnswers.includes(answer) || !isChecked && !question.correctAnswers.includes(answer)) {
                     console.log("Answer is correct");
-                    $("#answerLabel" + i).removeClass("text-danger");
                     rightAnswers++;
                 } else {
                     console.log("Answer is wrong");
-                    $("#answerLabel" + i).addClass("text-danger");
                 }
             }
             $("#feedback").removeClass("d-none");
@@ -85,10 +87,10 @@ $(document).ready(function () {
 
             if (rightAnswers === question.options.length) {
                 n_right++;
-                $("#feedback").text("Richtig!").removeClass("text-danger").addClass("text-success");
+                $("#feedback").text(" Richtig!").removeClass("text-danger").removeClass("bi bi-x-circle-fill").addClass("text-success").addClass("bi bi-check-circle-fill");
             } else {
                 n_wrong++;
-                $("#feedback").text("Falsch!").removeClass("text-success").addClass("text-danger");
+                $("#feedback").text(" Falsch!").removeClass("text-success").removeClass("bi bi-check-circle-fill").addClass("text-danger").addClass("bi bi-x-circle-fill");
             }
         }
     });
