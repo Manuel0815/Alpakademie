@@ -22,7 +22,7 @@ $(document).ready(function () {
                 var answerHtml = `
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="answer${index}" name="answers" value="${index}">
-                        <label class="form-check-label h5" for="answer${index}" id="answerLabel${index}">
+                        <label class="form-check-label fs-5 text" for="answer${index}" id="answerLabel${index}">
                             ${answer}
                         </label>
                     </div>
@@ -71,7 +71,7 @@ $(document).ready(function () {
                 var isChecked = $("#answer" + i).is(":checked");
                 console.log("Answer" + answer + " isChecked: " + isChecked + ". Option is correct: " + question.correctAnswers.includes(answer));
                 if (question.correctAnswers.includes(answer)) {
-                    $("#answerLabel" + i).addClass("text-success");
+                    $("#answerLabel" + i).addClass("text-success fw-bolder");
                 }
 
                 if (isChecked && question.correctAnswers.includes(answer) || !isChecked && !question.correctAnswers.includes(answer)) {
@@ -106,7 +106,7 @@ $(document).ready(function () {
         } else {
             $("#quizContainer").addClass("d-none");
             $("#resultsContainer").removeClass("d-none");
-            $("#resultsTitle").text(n_right + " von " + questions.length);
+            $("#resultsTitle").text(((n_right / questions.length) * 100).toFixed(2) + "%");
             $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Fragen richtig beantwortet.");
         }
     });
