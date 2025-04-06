@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Durch starke Sonnenbestrahlung kann es zu Kopfschmerzen, Übelkeit, Erbrechen, Bewusstseinstörungen, Krämpfen ect. kommen. Mit welchen Notfällen ist zu rechnen?",
+        "options": [
+            "Sonnenallergie",
+            "Hitzenotfall",
+            "Schlaganfall",
+            "Nasenbluten"
+        ],
+        "correctAnswers": [
+            "Hitzenotfall"
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind bei einem Verdacht eines Herzinfarkts zu setzen?",
+        "options": [
+            "Notruf verständigen, Defibrilator und Verbandskasten holen lassen",
+            "Lagerung mit erhöhten Beinen",
+            "Beruhigung der Person",
+            "Falls nach 1 Stunde keine Besserung: Hausarzt aufsuchen"
+        ],
+        "correctAnswers": [
+            "Notruf verständigen, Defibrilator und Verbandskasten holen lassen",
+            "Beruhigung der Person"
+        ]
+    },
+    {
+        "question": "Durch körperliche Anstrengung in heißer oder feuchtwarmer Umgebung kann es zu einem Wärmestau und zu einer Erhöhung der Körpertemperatur kommen. Wie nennt man dieses Krankheitsbild?",
+        "options": [
+            "Hexenschuss",
+            "Hypertonie",
+            "Hitzeschlag",
+            "Hyperventilation"
+        ],
+        "correctAnswers": [
+            "Hitzeschlag"
+        ]
+    },
+    {
+        "question": "Bei welchem Notfall muss nicht immer sofort der Rettungsdienst verständigt werden?",
+        "options": [
+            "Schmerzen in der Brust",
+            "Taubheitsgefühl in einer Körperhälfte",
+            "Asthmaanfall",
+            "Kollaps"
+        ],
+        "correctAnswers": [
+            "Kollaps"
+        ]
+    },
+    {
+        "question": "Welche Aussagen treffen bei einer Vergiftung zu?",
+        "options": [
+            "Eine Vergiftung kann einen lebensbedrohlichen Zustand hervorrufen",
+            "Vergiftungen entstehen am häufigsten bei Gefahrengutunfällen",
+            "Nur bei Aufnahme großer Mengen schädlicher Substanzen, kann von einer Vergiftung gesprochen werden",
+            "Nur feste Stoffe können Vergiftungen hervorrufen"
+        ],
+        "correctAnswers": [
+            "Eine Vergiftung kann einen lebensbedrohlichen Zustand hervorrufen"
+        ]
+    },
+    {
+        "question": "Welche typischen Warnzeichen weisen auf einen Schlaganfall hin?",
+        "options": [
+            "Plötzliche Schwäche oder Gefühlsstörungen einer Körperseite, besonders im Gesicht oder im Arm",
+            "Schwindel, Gangunsicherheit und Verwirrtheit",
+            "Erkrankte/r kann keinen einfachen Satz nachsprechen",
+            "Schnelle Atmung (hyperventiliert)"
+        ],
+        "correctAnswers": [
+            "Plötzliche Schwäche oder Gefühlsstörungen einer Körperseite, besonders im Gesicht oder im Arm",
+            "Schwindel, Gangunsicherheit und Verwirrtheit",
+            "Erkrankte/r kann keinen einfachen Satz nachsprechen"
+        ]
+    }
+]
