@@ -40,7 +40,7 @@ $(document).ready(function () {
         n_wrong = 0;
         console.log("start quiz with " + cquestions + " questions");
         
-        $.getJSON("https://raw.githubusercontent.com/Manuel0815/Alpakademie/main/data/questions.json", function (data) {
+        $.getJSON("https://raw.githubusercontent.com/Manuel0815/Alpakademie/main/data/jrk-questions.json", function (data) {
             if (data && Array.isArray(data)) {
                 if (cquestions == "Alle" || parseInt(cquestions) > data.length)
                     cquestions = data.length;
