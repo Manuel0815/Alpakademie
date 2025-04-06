@@ -22,7 +22,7 @@ $(document).ready(function () {
                 var answerHtml = `
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="answer${index}" name="answers" value="${index}">
-                        <label class="form-check-label fs-5 text" for="answer${index}" id="answerLabel${index}">
+                        <label class="form-check-label fs-6 text" for="answer${index}" id="answerLabel${index}">
                             ${answer}
                         </label>
                     </div>

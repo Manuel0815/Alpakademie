@@ -73,5 +73,83 @@
             "Schwindel, Gangunsicherheit und Verwirrtheit",
             "Erkrankte/r kann keinen einfachen Satz nachsprechen"
         ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind bei einem Asthmaanfall zu setzen?",
+        "options": [
+            "Notruf 144 verständigen, Lagerung mit erhöhtem Oberkörper",
+            "1450 verständigen, Lagerung mit erhöhtem Beinen",
+            "Notfallmedikamente sollen eingenommen werden",
+            "Kühlung der Atemwege, z.B. mit Eiswürfel von innen und von außen"
+        ],
+        "correctAnswers": [
+            "Notruf 144 verständigen, Lagerung mit erhöhtem Oberkörper",
+            "Notfallmedikamente sollen eingenommen werden"
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind nach einer Vergiftung durchzuführen? Die Person ist nicht ansprechbar",
+        "options": [
+            "Giftentfernung durch provoziertes Erbrechen",
+            "Überprüfung der Atmung: stabile Seitenlage oder Wiederbelebung durchführen",
+            "Bei nicht vorhandener Atmung, Verzicht auf Herzdruckmassage",
+            "Bei Tabletten in den Atemwegen: Heimlich-Manöver im Liegen durchführen"
+        ],
+        "correctAnswers": [
+            "Überprüfung der Atmung: stabile Seitenlage oder Wiederbelebung durchführen"
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind bei einem Verdacht der Blutzuckerentgleisung bei einem Diabetiker zu setzen?",
+        "options": [
+            "Wenn die betroffene Person ansprechbar ist, soll Zuckerhaltiges zu trinken oder essen verabreicht werden",
+            "Lagerung: Seitenlagerung",
+            "Lagerung: mit erhöhten Beinen",
+            "Notruf absetzen"
+        ],
+        "correctAnswers": [
+            "Wenn die betroffene Person ansprechbar ist, soll Zuckerhaltiges zu trinken oder essen verabreicht werden",
+            "Lagerung: mit erhöhten Beinen",
+            "Notruf absetzen"        
+        ]
+    },
+    {
+        "question": "Bei welchen Notfällen wird eine Lagerung mit erhöhtem Oberkörper empfohlen?",
+        "options": [
+            "Atemnot",
+            "Herzbeschwerden",
+            "Starke Blutung",
+            "Kollaps"
+        ],
+        "correctAnswers": [
+            "Atemnot",
+            "Herzbeschwerden"        
+        ]
+    },
+    {
+        "question": "Bei Verdacht auf Schlaganfall wendet der/die Ersthelfer:in den FAST-Test an. F steht für Face (Gesicht), S steht für Speech (Sprache), T steht für Time (Zeit). Wofür steht das A bei FAST?",
+        "options": [
+            "Apoplexie (Schlaganfall)",
+            "Arms (Arme)",
+            "Arrhythmie (Unregelmäßigkeit)",
+            "Azidose (Übersäuerung)"
+        ],
+        "correctAnswers": [
+            "Arms (Arme)"        
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind bei einem Krampfanfall korrekt?",
+        "options": [
+            "Zunge festhalten, um Zungenbiss zu vermeiden",
+            "Während des Krampfes vor weiteren Verletzungen schützen (z.B. Sessel wegstellen)",
+            "Nach dem Krampfanfall, Atmung überprüfen",
+            "Wenn der Erkrankte/r nach dem Krampf ansprechbar ist: Seitenlagerung empfohlen"
+        ],
+        "correctAnswers": [
+            "Während des Krampfes vor weiteren Verletzungen schützen (z.B. Sessel wegstellen)",
+            "Nach dem Krampfanfall, Atmung überprüfen",
+            "Wenn der Erkrankte/r nach dem Krampf ansprechbar ist: Seitenlagerung empfohlen"     
+        ]
     }
 ]
