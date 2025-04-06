@@ -173,33 +173,67 @@
             <section class="bg-light py-5">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span id="test" class="text-primary d-inline">Quiz</span></h1>
+                        <h1 class="display-5 fw-bolder mb-0"><span id="test" class="text-primary text-gradient d-inline">Erste Hilfe Meister:in</span></h1>
                     </div>
-                    <div class="row gx-5 justify-content-center">
+                    <!-- Number of Questions -->
+                    <div class="row gx-5 justify-content-center" id="quizStartContainer">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="row p-5">
-                                            <h2 class="fw-bolder">Erste Hilfe Meister:in</h2>
-                                            <p class="text-muted">Wähle bitte aus, wie viele Fragen du machen willst.</p>
-                                            <!-- <form id="questionsForm" class="form-inline mb-3"> -->
-                                                <div class="row mb-3">
-                                                    <!-- <input class="form-control" id="name" type="text" placeholder="Enter your name..." /> -->
-                                                    <div  class="col-8">
-                                                        <label for="cquestions" class="p-2">Wie viele Fragen?</label>
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <select class="form-select p-2" name="cquestions" id="cquestions">
-                                                            <option value="2">2</option>
-                                                            <option value="10">10</option>
-                                                            <option value="20">20</option>
-                                                            <option value="30">30</option>
-                                                        </select>
-                                                    </div>
+                                            <h2 class="fw-bolder">Start</h2>
+                                            <p class="fw-light text-muted text-muted h5">Wähle bitte aus, wie viele Fragen du machen willst.</p>
+                                            <div class="row mb-3">
+                                                <div  class="col-8">
+                                                    <label for="cquestions" class="p-2 h5">Wie viele Fragen?</label>
                                                 </div>
-                                                <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton">Submit</button></div>
-                                            <!-- </form> -->
+                                                <div class="col-4">
+                                                    <select class="form-select p-2 h5" name="cquestions" id="cquestions">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton">Los gehts</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Quizcontainer -->
+                    <div class="row gx-5 justify-content-center d-none" id="quizContainer">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="row p-5">
+                                            <h2 class="fw-bolder" id="questiontitle">Frage </h2>
+                                            <p class="h5" id="questiontext">?</p>
+                                            <div id="answersContainer">
+
+                                            </div>
+                                            <p class="text-primary d-none h5" id="feedback"></p>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="checkButton">Prüfen</button></div>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg d-none" id="nextButton">Nächste Frage</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Resultscontainer -->
+                    <div class="row gx-5 justify-content-center d-none" id="resultsContainer">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="row p-5">
+                                            <h2 class="fw-bolder" id="resultsTitle"></h2>
+                                            <p class="h5" id="resultsText">?</p>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="resetButton">Erneut starten</button></div>
                                         </div>
                                     </div>
                                 </div>

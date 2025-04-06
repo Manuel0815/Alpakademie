@@ -1,22 +1,118 @@
+var n_right = 0, n_wrong = 0;
+var cquestions;
+var questions;
+var currentQuestionIndex = 0;
+
 $(document).ready(function () {
     // $("#test").text("Hello, World!");
 
+    function showQuestion() {
+        if (questions && questions[currentQuestionIndex]) {
+            var question = questions[currentQuestionIndex];
+            console.log(question);
+            $("#questiontext").text(question.question);
+            $("#checkButton").removeClass("d-none");
+            $("#nextButton").addClass("d-none");
+            $("#feedback").addClass("d-none");
+
+            var answersContainer = $("#answersContainer");
+            answersContainer.empty(); // Clear previous answers
+
+            question.options.forEach(function (answer, index) {
+                var answerHtml = `
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="answer${index}" name="answers" value="${index}">
+                        <label class="form-check-label h5" for="answer${index}" id="answerLabel${index}">
+                            ${answer}
+                        </label>
+                    </div>
+                `;
+                answersContainer.append(answerHtml);
+            });
+        }
+    }
+
     $("#submitButton").click(function () {
-        var cquestions = $("#cquestions").val();
+        questions = [];
+        cquestions = $("#cquestions").val();
+        n_right = 0;
+        n_wrong = 0;
+        console.log("start quiz with " + cquestions + " questions");
         
-        $.getJSON("data/questions.json", function (data) {
+        $.getJSON("https://raw.githubusercontent.com/Manuel0815/Alpakademie/main/data/questions.json", function (data) {
             if (data && Array.isArray(data)) {
                 var randomQuestions = [];
-                while (randomQuestions.length < 2 && data.length > 0) {
+                while (randomQuestions.length < cquestions && data.length > 0) {
                     var randomIndex = Math.floor(Math.random() * data.length);
                     randomQuestions.push(data.splice(randomIndex, 1)[0]);
                 }
                 console.log(randomQuestions); // Do something with the random questions
+                questions = randomQuestions;
+                currentQuestionIndex = 0;
+                $("#quizStartContainer").addClass("d-none");
+                $("#quizContainer").removeClass("d-none");
+                $("#questiontitle").text("Frage 1 von " + cquestions);
+                showQuestion();
             } else {
                 console.error("Invalid data format in questions.json");
             }
         });
 
+    });
+
+    $("#checkButton").click(function () {
+        console.log("Check");
+        if (questions && questions[currentQuestionIndex]) {
+            var question = questions[currentQuestionIndex];
+            console.log("reset rightAnswers");
+            var rightAnswers = 0;
+            for (var i = 0; i < question.options.length; i++) {
+                var answer = question.options[i];
+                var isChecked = $("#answer" + i).is(":checked");
+                console.log("Answer" + answer + " isChecked: " + isChecked + ". Option is correct: " + question.correctAnswers.includes(answer));
+                if (isChecked && question.correctAnswers.includes(answer) || !isChecked && !question.correctAnswers.includes(answer)) {
+                    console.log("Answer is correct");
+                    $("#answerLabel" + i).removeClass("text-danger");
+                    rightAnswers++;
+                } else {
+                    console.log("Answer is wrong");
+                    $("#answerLabel" + i).addClass("text-danger");
+                }
+            }
+            $("#feedback").removeClass("d-none");
+            $("#checkButton").addClass("d-none");
+            $("#nextButton").removeClass("d-none");
+
+            if (rightAnswers === question.options.length) {
+                n_right++;
+                $("#feedback").text("Richtig!").removeClass("text-danger").addClass("text-success");
+            } else {
+                n_wrong++;
+                $("#feedback").text("Falsch!").removeClass("text-success").addClass("text-danger");
+            }
+        }
+    });
+
+    $("#nextButton").click(function () {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            $("#feedback").addClass("d-none");
+            $("#checkButton").removeClass("d-none");
+            $("#nextButton").addClass("d-none");
+            $("#questiontitle").text("Frage " + (currentQuestionIndex + 1) + " von " + cquestions);
+            showQuestion();
+        } else {
+            $("#quizContainer").addClass("d-none");
+            $("#resultsContainer").removeClass("d-none");
+            $("#resultsTitle").text(n_right + " von " + questions.length);
+            $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Fragen richtig beantwortet.");
+        }
+    });
+
+    $("#resetButton").click(function () {
+        $("#quizStartContainer").removeClass("d-none");
+        $("#quizContainer").addClass("d-none");
+        $("#resultsContainer").addClass("d-none");
     });
 
 });
