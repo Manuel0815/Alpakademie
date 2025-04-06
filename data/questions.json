@@ -1,0 +1,69 @@
+[
+    {
+        "question": "What are the primary colors?",
+        "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+        ],
+        "correctAnswers": [
+            "Red",
+            "Blue",
+            "Yellow"
+        ]
+    },
+    {
+        "question": "Which programming languages are used for web development?",
+        "options": [
+            "Python",
+            "JavaScript",
+            "HTML",
+            "C++"
+        ],
+        "correctAnswers": [
+            "JavaScript",
+            "HTML"
+        ]
+    },
+    {
+        "question": "Which of the following are planets in our solar system?",
+        "options": [
+            "Mars",
+            "Venus",
+            "Pluto",
+            "Sirius"
+        ],
+        "correctAnswers": [
+            "Mars",
+            "Venus"
+        ]
+    },
+    {
+        "question": "Which animals are mammals?",
+        "options": [
+            "Dolphin",
+            "Shark",
+            "Elephant",
+            "Crocodile"
+        ],
+        "correctAnswers": [
+            "Dolphin",
+            "Elephant"
+        ]
+    },
+    {
+        "question": "Which of these are valid HTTP methods?",
+        "options": [
+            "GET",
+            "POST",
+            "FETCH",
+            "DELETE"
+        ],
+        "correctAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    }
+]
