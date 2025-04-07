@@ -26,7 +26,8 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="#questionssection">Start</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Start</a></li>
+                            <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
                         </ul>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                                 <div class="fs-3 fw-light text-muted">Dein Portal zu cleverem Lernen</div>
                                 <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Willkommen bei der Alpakademie</span></h1>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-outline-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#questionssection">Start</a>
+                                    <a class="btn btn-outline-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="quiz.html">Zum Quiz</a>
                                 </div>
                             </div>
                         </div>
@@ -168,83 +169,6 @@
                     </div>
                 </div>
             </header>
-            <!-- Questions Section-->
-            <section class="bg-light py-5" id="questionssection">
-                <div class="container">
-                    <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span id="test" class="text-primary text-gradient d-inline">Erste Hilfe Meister:in</span></h1>
-                    </div>
-                    <!-- Number of Questions -->
-                    <div class="row gx-5 justify-content-center" id="quizStartContainer">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="row p-5">
-                                            <div class="fw-bolder display-6 text-center mb-2">Start</div>
-                                            <hr class="bg-gradient-primary-to-secondary">
-                                            <p class="fs-6 text text-center">Wähle bitte aus, wie viele Fragen du machen willst.</p>
-                                            <div class="row mb-3">
-                                                <div  class="col-7">
-                                                    <label for="cquestions" class="p-2 fs-6 text">Wie viele Fragen?</label>
-                                                </div>
-                                                <div class="col-5">
-                                                    <select class="form-select p-2 fs-6 text" name="cquestions" id="cquestions">
-                                                        <option value="20">20</option>
-                                                        <option value="30">30</option>
-                                                        <option value="Alle">Alle</option>
-                                                        <option value="1">1</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton">Los gehts</button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Quizcontainer -->
-                    <div class="row gx-5 justify-content-center d-none" id="quizContainer">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="row p-5">
-                                            <div class="fw-bolder display-6 text-center mb-2"><span id="questiontitle">Frage</span></div>
-                                            <hr>
-                                            <p class="fs-6 text" id="questiontext">?</p>
-                                            <div id="answersContainer" class="p-2">
-
-                                            </div>
-                                            <p class="text-primary d-none fs-6 text" id="feedback"></p>
-                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="checkButton">Prüfen</button></div>
-                                            <div class="d-grid"><button class="btn btn-primary btn-lg d-none" id="nextButton">Nächste Frage</button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Resultscontainer -->
-                    <div class="row gx-5 justify-content-center d-none" id="resultsContainer">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="row p-5">
-                                            <div class="fw-bolder display-6 text-center" id="resultsTitle"></div>
-                                            <hr>
-                                            <p class="fs-6 text text-center" id="resultsText">?</p>
-                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="resetButton">Erneut starten</button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </main>
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">

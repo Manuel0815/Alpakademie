@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Alpakademie</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Alpakademie</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Start</a></li>
+                            <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Questions Section-->
+            <section class="bg-light py-5" id="questionssection">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span id="test" class="text-primary text-gradient d-inline">Erste Hilfe Meister:in</span></h1>
+                    </div>
+                    <!-- Number of Questions -->
+                    <div class="row gx-5 justify-content-center" id="quizStartContainer">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="row p-5">
+                                            <div class="fw-bolder display-6 text-center mb-2">Start</div>
+                                            <hr class="bg-gradient-primary-to-secondary">
+                                            <p class="fs-6 text text-center">Wähle bitte aus, wie viele Fragen du machen willst.</p>
+                                            <div class="row mb-3">
+                                                <div  class="col-7">
+                                                    <label for="cquestions" class="p-2 fs-6 text">Wie viele Fragen?</label>
+                                                </div>
+                                                <div class="col-5">
+                                                    <select class="form-select p-2 fs-6 text" name="cquestions" id="cquestions">
+                                                        <option value="20">20</option>
+                                                        <option value="30">30</option>
+                                                        <option value="Alle">Alle</option>
+                                                        <option value="1">1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton">Los gehts</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Quizcontainer -->
+                    <div class="row gx-5 justify-content-center d-none" id="quizContainer">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="row p-5">
+                                            <div class="fw-bolder display-6 text-center mb-2"><span id="questiontitle">Frage</span></div>
+                                            <hr>
+                                            <p class="fs-6 text" id="questiontext">?</p>
+                                            <div id="answersContainer" class="p-2">
+
+                                            </div>
+                                            <p class="text-primary d-none fs-6 text" id="feedback"></p>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="checkButton">Prüfen</button></div>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg d-none" id="nextButton">Nächste Frage</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Resultscontainer -->
+                    <div class="row gx-5 justify-content-center d-none" id="resultsContainer">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="row p-5">
+                                            <div class="fw-bolder display-6 text-center" id="resultsTitle"></div>
+                                            <hr>
+                                            <p class="fs-6 text text-center" id="resultsText">?</p>
+                                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="resetButton">Erneut starten</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Alpakademie 2025</div></div>
+                    <div class="col-auto">
+                        <div class="d-flex justify-content-center fs-2 gap-4">
+                            <a class="text-gradient" href="https://github.com/Manuel0815/Alpakademie"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-auto"><div class="small m-0"><a href="https://www.flaticon.com/de/kostenlose-icons/lama" title="lama Icons">Lama Icons erstellt von Freepik - Flaticon</a></div></div>
+                </div>
+            </div>
+        </footer>
+        <!-- JQuery -->
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
