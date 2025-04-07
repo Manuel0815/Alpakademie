@@ -79,6 +79,8 @@ $(document).ready(function () {
                 console.log("Answer" + answer + " isChecked: " + isChecked + ". Option is correct: " + question.correctAnswers.includes(answer));
                 if (question.correctAnswers.includes(answer)) {
                     $("#answerLabel" + i).addClass("text-success fw-bolder");
+                } else if (isChecked && !question.correctAnswers.includes(answer)) {
+                    $("#answerLabel" + i).addClass("text-danger fw-bolder");
                 }
 
                 if (isChecked && question.correctAnswers.includes(answer) || !isChecked && !question.correctAnswers.includes(answer)) {
