@@ -116,7 +116,11 @@ $(document).ready(function () {
             $("#quizContainer").addClass("d-none");
             $("#resultsContainer").removeClass("d-none");
             $("#resultsTitle").text(((n_right / questions.length) * 100).toFixed(2) + "%");
-            $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Fragen richtig beantwortet.");
+            if (questions.length === 1) {
+                $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Frage richtig beantwortet.");
+            } else {
+                $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Fragen richtig beantwortet.");
+            }
         }
     });
 
