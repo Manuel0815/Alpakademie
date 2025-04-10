@@ -151,5 +151,517 @@
             "Nach dem Krampfanfall, Atmung überprüfen",
             "Wenn der Erkrankte/r nach dem Krampf ansprechbar ist: Seitenlagerung empfohlen"     
         ]
+    },
+    {
+        "question": "Was sind Erste-Hilfe-Maßnahmen bei einem Kollaps?",
+        "options": [
+            "Beine hochlagern",
+            "Warme gezuckerte Getränke verabreichen",
+            "Sollte sihc der Zustand nicht rasch bessern: Rettungsdienst verständigen",
+            "Eis zum Lutschen verabreichen"
+        ],
+        "correctAnswers": [
+            "Beine hochlagern",
+            "Sollte sihc der Zustand nicht rasch bessern: Rettungsdienst verständigen"
+        ]
+    },
+    {
+        "question": "Wie lautet die Telefonnummer der Vergiftungsinformationszentrale (VIZ)?",
+        "options": [
+            "01/43 43 43",
+            "01/144",
+            "01/0800 133 133",
+            "01/406 43 43"
+        ],
+        "correctAnswers": [
+            "01/406 43 43"
+        ]
+    },
+    {
+        "question": "Welche Anzeichen können auf einen Schlaganfall deuten?",
+        "options": [
+            "Plötzliche Schwäche, Gefühlsstörungen oder Lähmung einer Körperseite",
+            "Heißer Kopf",
+            "Akute Bauchschmerzen",
+            "Erkrankte/r kann keinen einfachen Satz nachsprechen"
+        ],
+        "correctAnswers": [
+            "Plötzliche Schwäche, Gefühlsstörungen oder Lähmung einer Körperseite",
+            "Erkrankte/r kann keinen einfachen Satz nachsprechen"
+        ]
+    },
+    {
+        "question": "Bei welchen Erkrankungen wird eine Lagerung mit erhöhtem Oberkörper empfohlen?",
+        "options": [
+            "Allergische Reaktion",
+            "Herzbeschwerden",
+            "Hitzenotfall",
+            "Asthmaanfall"
+        ],
+        "correctAnswers": [
+            "Allergische Reaktion",
+            "Herzbeschwerden",
+            "Hitzenotfall",
+            "Asthmaanfall"
+        ]
+    },
+    {
+        "question": "Bei welchen Notfällen ist eine Seitenlage sinnvoll?",
+        "options": [
+            "Bewusstseinsstörung",
+            "Gefahr des Erbrechens",
+            "Herzbeschwerden mit Atemnot",
+            "Bei verstauchtem Knöchel"
+        ],
+        "correctAnswers": [
+            "Bewusstseinsstörung",
+            "Gefahr des Erbrechens"
+        ]
+    },
+    {
+        "question": "Welche Gefahren bestehen bei einem Stich z.B. von einer Biene?",
+        "options": [
+            "Schwellung und Rötung des Gewebes im Bereich der Einstichstelle",
+            "Gefahr einer schweren allergischen Reaktion",
+            "Schwellungen im Bereich der Atemwege",
+            "Unterzuckerung"
+        ],
+        "correctAnswers": [
+            "Schwellung und Rötung des Gewebes im Bereich der Einstichstelle",
+            "Gefahr einer schweren allergischen Reaktion",
+            "Schwellungen im Bereich der Atemwege"
+        ]
+    },
+    {
+        "question": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei einem Schlaganfall zu setzen?",
+        "options": [
+            "Notruf",
+            "Seitenlage empfohlen",
+            "Basismaßnahmen",
+            "Die betroffene Körperregion möglichst hochhalten"
+        ],
+        "correctAnswers": [
+            "Notruf",
+            "Seitenlage empfohlen",
+            "Basismaßnahmen"
+        ]
+    },
+    {
+        "question": "Was können Anzeichen für einen Herzinfarkt sein?",
+        "options": [
+            "Kopfschmerzen und Ohrensausen",
+            "Schmerzen in der Brust",
+            "Engegefühl in der Brust",
+            "Angst, Atemnot"
+        ],
+        "correctAnswers": [
+            "Schmerzen in der Brust",
+            "Engegefühl in der Brust",
+            "Angst, Atemnot"
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind nach einer Vergiftung durchzuführen, wenn das Gift bekannt ist und der/die Betroffene ansprechbar ist und normal reagiert?",
+        "options": [
+            "Zuerst Notruf, dann Vergiftungsinformationszentrale kontaktieren und Anweisungen folgen",
+            "Sofort schluckweise Wasser zum Trinken geben; falls keine Besserung Notruf wählen",
+            "Zum Erbrechen bringen",
+            "Stabile Seitenlage durchführen"
+        ],
+        "correctAnswers": [
+            "Zuerst Notruf, dann Vergiftungsinformationszentrale kontaktieren und Anweisungen folgen",
+            "Stabile Seitenlage durchführen"
+        ]
+    },
+    {
+        "question": "Welches Prinzip wird verwendet, um bei einem psychiatrischen Notfall zu unterstützen?",
+        "options": [
+            "Das Feel-Hear-Soul Prinzip",
+            "Das Look-Listen-Link Prinzip",
+            "Das FAST-Prinzip",
+            "Das STOP-Prinzip"
+        ],
+        "correctAnswers": [
+            "Das Look-Listen-Link Prinzip"
+        ]
+    },
+    {
+        "question": "Welche Telefonnummern kann man in Österreich für Beratung in psychisch belastenden Situationen wählen?",
+        "options": [
+            "116 123",
+            "01/406 43 43",
+            "147",
+            "142"
+        ],
+        "correctAnswers": [
+            "116 123",
+            "147",
+            "142"
+        ]
+    },
+    {
+        "question": "Eine Person befindet sich in einer psychisch belastenden Situation. In welchem Fall muss man sofort den Rettungsdienst verständigen?",
+        "options": [
+            "Wenn die betroffene Person 3 Tage hintereinander schlecht geschlafen hat",
+            "Wenn die betroffene Person eine geringe Verhaltensänderung zeigt",
+            "Wenn die betroffene Person nicht gut erklären kann, was sie braucht",
+            "Bei Selbst- oder Fremdgefährdung"
+        ],
+        "correctAnswers": [
+            "Bei Selbst- oder Fremdgefährdung"
+        ]
+    },
+    {
+        "question": "Die Notrufnummer der Feuerwehr lautet...",
+        "options": [
+            "122",
+            "133",
+            "144",
+            "112"
+        ],
+        "correctAnswers": [
+            "122"
+        ]
+    },
+    {
+        "question": "Welche Maßnahmen ergreifen Sie, wenn eine Person reglos am Bauch liegt?",
+        "options": [
+            "Sofort stabile Seitenlage durchführen",
+            "Notruf (veranlassen)",
+            "Laut ansprechen und sanft schütteln",
+            "Wenn keine Reaktion: Person umdrehen"
+        ],
+        "correctAnswers": [
+            "Notruf (veranlassen)",
+            "Laut ansprechen und sanft schütteln",
+            "Wenn keine Reaktion: Person umdrehen"
+        ]
+    },
+    {
+        "question": "Welche Rettungsmöglichkeiten aus einer Gefahrenzone hat der/die Ersthelfer:in?",
+        "options": [
+            "Rautekgriff anwenden",
+            "Wegziehen in Bauch- oder Rückenlage",
+            "Rettungstuch verwenden",
+            "Seiltechniken anwenden"
+        ],
+        "correctAnswers": [
+             "Rautekgriff anwenden",
+            "Wegziehen in Bauch- oder Rückenlage"
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind beim Verdacht der Unterkühlung zu setzen?",
+        "options": [
+            "Notruf, Basismaßnahmen",
+            "Warme alkoholische Getränke verabreichen, frottieren, gut zudecken",
+            "Warme gezuckerte Getränke verabreichen, Bewegung vermeiden, gut zudecken",
+            "Kopf-Tieflagerung um weiteres Absinken der Temperatur zu vermeiden"
+        ],
+        "correctAnswers": [
+            "Notruf, Basismaßnahmen",
+            "Warme gezuckerte Getränke verabreichen, Bewegung vermeiden, gut zudecken"
+        ]
+    },
+    {
+        "question": "Die Notrufnummer vom Rettungsdienst lautet...",
+        "options": [
+            "141",
+            "133",
+            "144",
+            "112"
+        ],
+        "correctAnswers": [
+            "144"
+        ]
+    },
+    {
+        "question": "Die Notrufnummer der Polizei lautet...",
+        "options": [
+            "122",
+            "133",
+            "144",
+            "911"
+        ],
+        "correctAnswers": [
+            "133"
+        ]
+    },
+    {
+        "question": "Die Notrufnummer des Euro-Notrufs lautet...",
+        "options": [
+            "122",
+            "138",
+            "144",
+            "112"
+        ],
+        "correctAnswers": [
+            "112"
+        ]
+    },
+    {
+        "question": "Welche Angaben sind beim Wählen des Notrufs sinnvoll?",
+        "options": [
+            "Ob ich einen ÖNORM-Verbandskasten besitze",
+            "Genaue Adressangaben",
+            "Exakte Kilometerangabe und Fahrtrichtung auf der Autobahn",
+            "Body-Mass-Index"
+        ],
+        "correctAnswers": [
+            "Genaue Adressangaben",
+            "Exakte Kilometerangabe und Fahrtrichtung auf der Autobahn"
+        ]
+    },
+    {
+        "question": "Welche Nummer sollte bei einem medizinischen Notfall bevorzugt gerufen werden?",
+        "options": [
+            "1450",
+            "144",
+            "Völlig egal",
+            "133"
+        ],
+        "correctAnswers": [
+            "144"
+        ]
+    },
+    {
+        "question": "Was soll man bei einem Notruf beachten?",
+        "options": [
+            "Den Anweisungen der Leitstelle folgen",
+            "Sich für den Notruf Zeit nehmen und auf die Fragen der Leitstelle antworten",
+            "Notruf wählen, Notfallort nennen, auflegen und Erste Hilfe leisten",
+            "Das Gespräch beendet die Leitstelle"
+        ],
+        "correctAnswers": [
+            "Den Anweisungen der Leitstelle folgen",
+            "Sich für den Notruf Zeit nehmen und auf die Fragen der Leitstelle antworten",
+            "Das Gespräch beendet die Leitstelle"
+        ]
+    },
+    {
+        "question": "Welche Maßnahmen gehören zu den Basismaßnahmen?",
+        "options": [
+            "Psychische Betreuung (Look-Listen-Link)",
+            "Zur Aktivierung des Kreislaufes aufstehen",
+            "Angenehme Lagerung einnehmen (z.B. erhöhter Oberkörper bei Atemnot)",
+            "Für frische Luft sorgen und bei Notwendigkeit beengende Kleidungsstücke öffnen"
+        ],
+        "correctAnswers": [
+            "Psychische Betreuung (Look-Listen-Link)",
+            "Angenehme Lagerung einnehmen (z.B. erhöhter Oberkörper bei Atemnot)",
+            "Für frische Luft sorgen und bei Notwendigkeit beengende Kleidungsstücke öffnen"
+        ]
+    },
+    {
+        "question": "Welche Aufgaben hat der/die Ersthelfer:in?",
+        "options": [
+            "Starke Blutungen stillen",
+            "Notruf absetzen",
+            "E-Card und Ausweis kontrollieren",
+            "Retten von Verletzten aus allen Gefahrensituationen"
+        ],
+        "correctAnswers": [
+            "Starke Blutungen stillen",
+            "Notruf absetzen"
+        ]
+    },
+    {
+        "question": "Welches Material wird für den manuellen Druck benötigt?",
+        "options": [
+            "Saugendes Material, z.B. Wundauflage",
+            "Material zum Abbinden",
+            "Falls vorhanden: Einmalhandschuhe",
+            "Wunddesinfektion"
+        ],
+        "correctAnswers": [
+            "Saugendes Material, z.B. Wundauflage",
+            "Falls vorhanden: Einmalhandschuhe"
+        ]
+    },
+    {
+        "question": "Wie lautet die Erste-Hilfe-Maßnahme, die mit saugendem Material mit den Fingern, dem Handballen oder der Faust mit Druck auf die stark blutende Wunde ausgeübt wird?",
+        "options": [
+            "Manueller Druck",
+            "Blutdruck",
+            "Herzdruckmassage",
+            "Druckverband"
+        ],
+        "correctAnswers": [
+            "Manueller Druck"
+        ]
+    },
+    {
+        "question": "Welche Lagerung wird bei einer starken Blutung empfohlen (z.B. Kreissägenverletzung am Unterarm)?",
+        "options": [
+            "Oberkörper-Hochlagerung",
+            "Beine-Hochlagerung",
+            "Deckenrolle unter dem Knie",
+            "Lagerung ohne Veränderung der Körperhaltung"
+        ],
+        "correctAnswers": [
+            "Beine-Hochlagerung"
+        ]
+    },
+    {
+        "question": "Welche Erste-Hilfe-Maßnahmen sind bei einer starken Blutung am Unterschenkel durchzuführen?",
+        "options": [
+            "Verletzte Person hinlegen",
+            "Verletze Person stehen lassen",
+            "Ersthelfer:in soll nur den Notruf ansetzen",
+            "Manuellen Druck druchführen oder Druckverband anlegen; Beine hochlagern"
+        ],
+        "correctAnswers": [
+            "Verletzte Person hinlegen",
+            "Manuellen Druck druchführen oder Druckverband anlegen; Beine hochlagern"
+        ]
+    },
+    {
+        "question": "Wie wird die Mund-zu-Mund-Beatmung im Rahmen der Ersten Hilfe durchgeführt?",
+        "options": [
+            "Notfallbeatmungstuch über Nase der erkrankten Person legen, Kopf nackenwärts überstrecken, Mund zuhalten und 2 Mal beatmen",
+            "Der/die Ersthelfer:in kontrolliert durch das normale Heben und Senken des Brustkorbs die Effektivität der Beatmung",
+            "Die Beatmung wird ausschließlich durch den/die Notarzt/ die Notärztin durchgeführt",
+            "Notfallbeatmungstuch über den Mund der erkrankten Person legen, Kopf nackenwärts überstrecken, Nase zuhalten und 2 Mal beatmen"
+        ],
+        "correctAnswers": [
+            "Der/die Ersthelfer:in kontrolliert durch das normale Heben und Senken des Brustkorbs die Effektivität der Beatmung",
+            "Notfallbeatmungstuch über den Mund der erkrankten Person legen, Kopf nackenwärts überstrecken, Nase zuhalten und 2 Mal beatmen"
+        ]
+    },
+    {
+        "question": "Wie wird das Bewusstsein überprüft?",
+        "options": [
+            "Reglose Person massieren, bis der/die Notarzt/Notärztin eintrifft",
+            "Durch lautes Ansprechen und sanftes Schütteln an den Schultern",
+            "Pupillenreflexe der reglosen Person mit einer (Handy-)Taschenlampe überprüfen",
+            "Schmerzreiz am Handrücken durchführen"
+        ],
+        "correctAnswers": [
+            "Durch lautes Ansprechen und sanftes Schütteln an den Schultern"
+        ]
+    },
+    {
+        "question": "Welche Lagerung wird bei einer reglosen Person mit normaler Atmung durchgeführt?",
+        "options": [
+            "Oberkörper-Hochlagerung",
+            "Lagerung ohne Veränderung der Körperhaltung",
+            "Deckenrolle unter dem Knie",
+            "Stabile Seitenlage"
+        ],
+        "correctAnswers": [
+            "Stabile Seitenlage"
+        ]
+    },
+    {
+        "question": "Wie soll ein/e Ersthelfer:in weiter vorgehen, wenn festgestellt wird, dass die reglose Person atmet, die Atmung aber nicht normal ist?",
+        "options": [
+            "Stabile Seitenlage durchführen",
+            "Wiederbelebung beginnen",
+            "Erkrankte Person liegen lassen und auf den Rettungsdienst warten",
+            "Erkrankte Person 2-mal beatmen"
+        ],
+        "correctAnswers": [
+            "Wiederbelebung beginnen"
+        ]
+    },
+    {
+        "question": "Welche Schritte sind als nächstes durchzuführen, wenn der/die Verletzte auf lautes Ansprechen und sanftes Schütteln nicht reagiert?",
+        "options": [
+            "Hilferuf, Atmung kontrollieren, Atemwege freimachen",
+            "Stabile Seitenlage durchführen",
+            "Vor dem Eintreffen des Rettungsdienstes sind keine weiteren Maßnahmen erforderlich",
+            "Hilferuf, Atemwege freimachen, Atmung kontrollieren"
+        ],
+        "correctAnswers": [
+            "Hilferuf, Atemwege freimachen, Atmung kontrollieren"
+        ]
+    },
+    {
+        "question": "Wie wird die stabile Seitenlage korrekt durchgeführt?",
+        "options": [
+            "Arm zur Seite legen, gegenüberliegendes Knie hochziehen, Handgelenk aufs Knie legen und herdrehen",
+            "Arm nach oben legen, gegenüberliegendes Knie hochziehen und herdrehen",
+            "Arm zur Seite legen, gegenüberliegendes Knie hochziehen, Ellbogen aufs Knie und herdrehen",
+            "Beide Arme zur Seite legen, gegenüberliegendes Knie hochziehen und herdrehen"
+        ],
+        "correctAnswers": [
+            "Arm zur Seite legen, gegenüberliegendes Knie hochziehen, Handgelenk aufs Knie legen und herdrehen"
+        ]
+    },
+    {
+        "question": "Weiche Erste Hilfe-Ausrüstung kann eine/n Ersthelfer in vor Infektionen schützen?",
+        "options": [
+            "Beatmungstuch",
+            "Einmalhandschuhe",
+            "Taschentuch",
+            "Rettungstuch"
+        ],
+        "correctAnswers": [
+            "Beatmungstuch",
+            "Einmalhandschuhe"
+        ]
+    },
+    {
+        "question": "Wie versorgt man einein Verletzte/n mit einer stark blutenden Wunde an einer Extremitat?",
+        "options": [
+            "Nur den Notruf abzusetzen der Rettungsdienst kümmert sich um die Wunde",
+            "Pflasterverband anbringen",
+            "Manuellen Druck auf die Wunde ausüben oder Druckverband anlegen",
+            "Notruf absetzen, verletzten Körperteil hochhalten"
+        ],
+        "correctAnswers": [
+            "Manuellen Druck auf die Wunde ausüben oder Druckverband anlegen",
+            "Notruf absetzen, verletzten Körperteil hochhalten"
+        ]
+    },
+    {
+        "question": "Wie gehen Sie bei der Wiederbelebung einer erwachsenen Person als trainierte/r Ersthelfer in vor?",
+        "options": [
+            "3 Herzdruckmassagen/1 Beatmung",
+            "10 Herzdruckmassagen/5 Beatmungen",
+            "15 Herzdruckmassagen/2 Beatmungen",
+            "30 Herzdruckmassagen/2 Beatmungen"
+        ],
+        "correctAnswers": [
+            "30 Herzdruckmassagen/2 Beatmungen"
+        ]
+    },
+    {
+        "question": "Wann spricht man von einer regiosen Person?",
+        "options": [
+            "Person reagiert nur auf Schmerzreize wie Zwicken in die Wangen",
+            "Person ist verwirrt und kann sich an nichts erinnern",
+            "Keine Reaktion auf lautes Ansprechen und sanftes Schütteln",
+            "Bewusstseinslage kann durch den/die Ersthelfer in nicht überprüft werden"
+        ],
+        "correctAnswers": [
+            "Keine Reaktion auf lautes Ansprechen und sanftes Schütteln"
+        ]
+    },
+    {
+        "question": "Was bedeutet die Abkürzung 'AED'?",
+        "options": [
+            "Automatisierte-Energiegeladene-Darreichung",
+            "Automatisierte-Erdgas-Dauerfunktion",
+            "Automatisierter-Externer-Defibrillator",
+            "Automatisierter-Elektrischer-Druck"
+        ],
+        "correctAnswers": [
+            "Automatisierter-Externer-Defibrillator"
+        ]
+    },
+    {
+        "question": "Welche Aussagen treffen bei einer regiosen Person zu?",
+        "options": [
+            "In Rückenlage besteht Lebensgefahr durch Ersticken",
+            "Stabile Seitenlage ist die optimale Lagerung, wenn normale Atmung feststellbar ist",
+            "In Rückenlage besteht keine Lebensgefahr",
+            "Falls keine normale Atmung feststellbar, mit Wiederbelebung starten"
+        ],
+        "correctAnswers": [
+            "In Rückenlage besteht Lebensgefahr durch Ersticken",
+            "Stabile Seitenlage ist die optimale Lagerung, wenn normale Atmung feststellbar ist",
+            "Falls keine normale Atmung feststellbar, mit Wiederbelebung starten"
+        ]
     }
 ]
