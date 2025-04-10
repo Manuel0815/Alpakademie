@@ -101,6 +101,12 @@ $(document).ready(function () {
                 n_wrong++;
                 $("#feedback").text(" Falsch!").removeClass("text-success").removeClass("bi bi-check-circle-fill").addClass("text-danger").addClass("bi bi-x-circle-fill");
             }
+
+            if (currentQuestionIndex + 1 === cquestions) {
+                $("#nextButton").text("Zum Ergebnis");
+            } else {
+                $("#nextButton").text("Nächste Frage");
+            }
         }
     });
 
@@ -113,13 +119,22 @@ $(document).ready(function () {
             $("#questiontitle").text("Frage " + (currentQuestionIndex + 1) + " von " + cquestions);
             showQuestion();
         } else {
+            percentage = ((n_right / questions.length) * 100).toFixed(2)
             $("#quizContainer").addClass("d-none");
             $("#resultsContainer").removeClass("d-none");
-            $("#resultsTitle").text(((n_right / questions.length) * 100).toFixed(2) + "%");
+            $("#resultsTitle").text(percentage + "%");
             if (questions.length === 1) {
                 $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Frage richtig beantwortet.");
             } else {
                 $("#resultsText").text("Du hast " + n_right + " von " + questions.length + " Fragen richtig beantwortet.");
+            }
+            if (percentage > 80) {
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 },
+                    ticks: 500
+                });
             }
         }
     });
