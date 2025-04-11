@@ -11734,5 +11734,7 @@ html {
 }
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(100%);
+  filter: invert(100%);
+  top: 10%; /* Adjust this value to position the arrows more towards the upper side */
+  transform: translateY(-10%); /* Center the arrows vertically relative to the new position */
 }
